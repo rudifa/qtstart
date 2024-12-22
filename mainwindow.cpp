@@ -2,6 +2,7 @@
 #include "ui_mainwindow.h"
 #include <QSvgRenderer>
 #include <QPainter>
+#include <iostream>
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
@@ -16,6 +17,16 @@ MainWindow::MainWindow(QWidget *parent)
 
     // Load SVG content into the QSvgWidget
     ui->svgWidget->load(svgContent.toUtf8());
+
+    // Set aspect ratio mode using the renderer
+    if (ui->svgWidget->renderer())
+    {
+        ui->svgWidget->renderer()->setAspectRatioMode(Qt::KeepAspectRatio);
+    }
+    else
+    {
+        std::cerr << "ui->svgWidget->renderer() not found" << std::endl;
+    }
 }
 
 MainWindow::~MainWindow()
