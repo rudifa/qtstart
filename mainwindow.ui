@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
-	<class>
-		MainWindow
-	</class>
+	<class>MainWindow</class>
 	<widget class="QMainWindow" name="MainWindow">
 		<property name="geometry">
 			<rect>
@@ -21,9 +19,7 @@
 			</rect>
 		</property>
 		<property name="windowTitle">
-			<string>
-				MainWindow
-			</string>
+			<string>MainWindow</string>
 		</property>
 		<widget class="QWidget" name="centralwidget">
 			<layout class="QVBoxLayout" name="verticalLayout">
@@ -54,15 +50,9 @@
 	</widget>
 	<customwidgets>
 		<customwidget>
-			<class>
-				QSvgWidget
-			</class>
-			<extends>
-				QWidget
-			</extends>
-			<header>
-				QSvgWidget
-			</header>
+			<class>QSvgWidget</class>
+			<extends>QWidget</extends>
+			<header>QSvgWidget</header>
 		</customwidget>
 	</customwidgets>
 	<resources />

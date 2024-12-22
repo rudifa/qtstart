@@ -13,12 +13,4 @@
         <translation type="unfinished"></translation>
     </message>
 </context>
-<context>
-    <name>MainWindow</name>
-    <message>
-        <location filename="build/Qt_6_8_1_for_macOS-Debug/untitled_autogen/include/ui_mainwindow.h" line="51"/>
-        <source>MainWindow</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
 </TS>

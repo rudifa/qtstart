@@ -2,7 +2,7 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
-#include <QSvgWidget>
+#include <QtSvgWidgets/QSvgWidget>  // Change this line
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
