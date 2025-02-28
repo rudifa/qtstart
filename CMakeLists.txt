@@ -17,10 +17,10 @@ set(CMAKE_PREFIX_PATH "${Qt6_DIR}")
 find_package(Qt6 6.8.2 COMPONENTS Widgets SvgWidgets REQUIRED)
 
 set(PROJECT_SOURCES
-    main.cpp
-    mainwindow.cpp
-    mainwindow.h
-    mainwindow.ui
+    source/main.cpp
+    source/mainwindow.cpp
+    source/mainwindow.h
+    source/mainwindow.ui
 )
 
 qt_add_executable(qtstart
